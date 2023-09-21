@@ -1,0 +1,29 @@
+.title1{
+    color: var(--white);
+    font-family: var(--font-primary);
+    font-size: var(--size-1);
+    font-weight: var(--weight-4);
+}
+
+.title2{
+    color: var(--white);
+    font-family: var(--font-primary);
+    font-size: var(--size-2);
+    font-weight: var(--weight-4);
+}
+
+.title3{
+    color: var(--white);
+    font-family: var(--font-primary);
+    font-size: var(--size-3);
+    font-weight: var(--weight-4);
+}
+
+.paragraph{
+    color: var(--white);
+    font-family: var(--font-primary);
+    font-size: var(--size-4);
+    font-weight: var(--weight-4);
+    line-height: var(--height);
+}
+

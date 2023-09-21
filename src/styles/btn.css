@@ -1,0 +1,19 @@
+.btn{
+    color: var(--white);
+    font-size: var(--size-6);
+    font-weight: var(--weight-2);
+    
+    background-color: var(--purple);
+    border: 1px solid #000;
+    border-radius: 12px;
+
+    height: 39px;
+    padding: 0 30px;
+    max-width: fit-content;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
