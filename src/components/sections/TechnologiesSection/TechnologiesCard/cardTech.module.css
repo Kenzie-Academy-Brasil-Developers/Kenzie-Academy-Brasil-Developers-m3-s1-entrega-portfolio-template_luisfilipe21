@@ -1,7 +1,6 @@
 .techInfo{
-
     width: 100%;
-    min-width: 390px;
+    min-width: 333px;
     
     display: flex;
     flex-wrap: wrap;
@@ -10,4 +9,11 @@
 
     border-radius: 25px;
     border: 1px solid rgba(255, 255, 255, .5);
+}
+
+@media(min-width: 768){
+    .techInfo{
+        align-items: center;
+        width: 100%;
+    }
 }

@@ -1,6 +1,7 @@
 .techList{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
 
     min-width: 20.8125rem;
     gap: 1.25rem;    
@@ -11,10 +12,17 @@
     min-height: 300px;
 }
 
+.techList li{
+    width: 100%;
+}
 
 @media (min-width: 768px){
     .techList{
-        flex-direction: row;
-        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 4.375rem;
     }
+    .techList li{
+        max-width: 17.5rem;
+    }
+
 }

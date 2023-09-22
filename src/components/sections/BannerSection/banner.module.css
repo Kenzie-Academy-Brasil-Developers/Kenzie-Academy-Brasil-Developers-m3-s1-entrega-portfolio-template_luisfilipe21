@@ -5,23 +5,25 @@
     width: 100%;
 }
 
-.divBanner>span{
+.divBanner span{
     margin: 9px 0;
 }
 
-.divBanner>h1{
+.divBanner h1{
     margin-bottom: 2.3125rem;
     margin-top: 0.5625rem;
     min-width: 300px;
 }
 
-.divBanner>p{
+.divBanner p{
     margin-bottom: 2.3125rem;
+}
+.divBanner button{
+    margin-bottom: 3.9375rem;
 }
 .divBanner>img{
     min-width: 480px;
     min-height: 300px;
-
 }
 
 @media (min-width: 768px) {
