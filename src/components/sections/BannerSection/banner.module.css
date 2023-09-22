@@ -1,0 +1,37 @@
+.divMacro{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 75px;
+    width: 100%;
+}
+
+.divBanner>span{
+    margin: 9px 0;
+}
+
+.divBanner>h1{
+    margin-bottom: 2.3125rem;
+    margin-top: 0.5625rem;
+    min-width: 300px;
+}
+
+.divBanner>p{
+    margin-bottom: 2.3125rem;
+}
+.divBanner>img{
+    min-width: 480px;
+    min-height: 300px;
+
+}
+
+@media (min-width: 768px) {
+    .divMacro{
+        flex-direction: row;
+    }
+    .divBanner{
+        width: 100%;
+    }
+    .divBanner h1{
+        width: 70%;
+    }
+}

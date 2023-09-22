@@ -1,0 +1,24 @@
+.divAbout{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.divAbout>h2{
+    margin-bottom: 1.5625rem;
+}
+
+@media (min-width: 768px){
+    .divAbout{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .divAbout>h2{
+        max-width: max-content;
+        margin-right: 70px;
+    }
+    .p{
+        width: 60%;
+    }
+}
+

@@ -1,0 +1,20 @@
+.divInfo{
+    position:relative;
+    margin: 0 2rem;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.gitLogo{
+    position: absolute;
+    right: 0;
+    top: -0.3125rem;
+}
+
+@media (min-width: 768px){
+    .divInfo{
+        flex-wrap: wrap;
+    }
+}

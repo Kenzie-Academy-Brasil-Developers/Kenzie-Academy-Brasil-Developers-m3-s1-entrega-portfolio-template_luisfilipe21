@@ -1,0 +1,20 @@
+.techList{
+    display: flex;
+    flex-direction: column;
+
+    min-width: 20.8125rem;
+    gap: 1.25rem;    
+    margin-top: 1.5625rem
+}
+
+.tech{
+    min-height: 300px;
+}
+
+
+@media (min-width: 768px){
+    .techList{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
