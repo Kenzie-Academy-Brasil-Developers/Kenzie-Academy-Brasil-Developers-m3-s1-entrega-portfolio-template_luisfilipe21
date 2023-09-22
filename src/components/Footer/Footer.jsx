@@ -1,6 +1,7 @@
 import Git from '../../assets/github-icon.png'
 import LinkedIn from '../../assets/linkedin-icon.png'
 import Whats from '../../assets/whatsapp-icon.png'
+import {user} from '../../data/user'
 
 import style from './footer.module.css'
 
@@ -17,7 +18,7 @@ export const Footer = () => {
                             <img src={Git} alt="Git Hub" />
                         </div>
                     </div>
-                    <p className='paragraph'>Todos os direitos reservados - José da Silva</p>
+                    <p className='paragraph'>Todos os direitos reservados - {user}</p>
                 </div>
             </footer>
         </>
